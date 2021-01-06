@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magda Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Model</h2>
+            <div class="toggle"></div>
+        </header>
+        <!-- <img src="/images/L1008797-Edit.jpg" alt=""> -->
+        <video src="/Magda hq.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Keep posing</h2>
+            <h3>ok??</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit totam perferendis cumque hic sint exercitationem debitis, quia doloribus maxime deleniti ipsa repudiandae placeat ullam mollitia voluptatibus explicabo eaque, vel pariatur.z</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="/images/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="/images/social-media(1).png" alt=""></a></li>
+            <li><a href="#"><img src="/images/social-media.png" alt=""></a></li>
+        </ul>
+
+       
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+        })
+    </script>
+</body>
+</html>
